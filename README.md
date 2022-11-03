@@ -99,8 +99,17 @@ Note: set the configurations **BEFORE** you load the color scheme
 
 ```lua
 -- Example config in lua
-vim.g.minimal_italic_functions = true
-vim.g.minimal_italic_comments = false
+
+-- oh-lucy
+vim.g.oh_lucy_italic_functions = true
+vim.g.oh_lucy_italic_comments = false
+-- The key is 'oh_lucy_'
+
+-- oh-lucy-evening
+vim.g.oh_lucy_evening_italic_functions = true
+vim.g.oh_lucy_evening_italic_comments = false
+-- The key is 'oh_lucy_evening_'
+
 -- Load the colorscheme
 vim.cmd [[colorscheme oh-lucy]]
 -- or 
@@ -109,13 +118,14 @@ vim.cmd [[colorscheme oh-lucy-evening]]
 
 ```vim
 " Example config in Vim Script
-let g:minimal_italic_functions = 1
-let g:minimal_italic_comments = 0
+let g:oh_lucy_evening_italic_functions = 1
+let g:oh_lucy_italic_comments = 0
 " Load the colorscheme
 colorscheme oh-lucy
 " or 
 colorscheme oh-lucy-evening
 ```
+
 ## 👇 For terminal use:
 Color configs for [Alacritty](https://github.com/alacritty/alacritty) can be found in [terminal](terminal). If you want to use it, pleas refer to their respective documentation and do changes to your `.config/` accordingly 
 
