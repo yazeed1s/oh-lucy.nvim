@@ -1,6 +1,6 @@
 # oh-lucy.nvim
 
-Two [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter) supported colorschemes ispired by [oh-lucy](https://github.com/hermitter/oh-lucy-vscode-theme).\
+Two [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter) supported colorschemes inspired by [oh-lucy](https://github.com/hermitter/oh-lucy-vscode-theme).\
 Both colorschemes are availaible for vim and neovim and written in Lua.
 
 
