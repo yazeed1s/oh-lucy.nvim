@@ -3,6 +3,7 @@ local config
 vim = vim or { g = {}, o = {} }
 
 local function opt(key, default)
+  key = "oh_lucy_" .. key
   if vim.g[key] == nil then
     return default
   end
