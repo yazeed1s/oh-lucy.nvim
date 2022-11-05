@@ -89,12 +89,12 @@ Note: set the configurations **BEFORE** you load the color scheme
 
 | Option                     | Default   | Description              |
 | -------------------------- | --------- | ------------------------ |
-| minimal_italic_comments  | `true`    | Make comments italic     |
-| minimal_italic_keywords  | `false`   | Make keywords italic     |
-| minimal_italic_booleans  | `false`   | Make booleans italic     |
-| minimal_italic_functions | `false`   | Make functions italic    |
-| minimal_italic_variables | `false`   | Make variables italic    |
-| minimal_transparent_background      | `false`   | Disable background color |
+| oh_lucy_italic_comments  | `true`    | Make comments italic     |
+| oh_lucy_italic_keywords  | `true`   | Make keywords italic     |
+| oh_lucy_italic_booleans  | `false`   | Make booleans italic     |
+| oh_lucy_italic_functions | `false`   | Make functions italic    |
+| oh_lucy_italic_variables | `true`   | Make variables italic    |
+| oh_lucy_transparent_background      | `false`   | Disable background color |
 
 
 ```lua
