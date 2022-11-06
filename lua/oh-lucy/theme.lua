@@ -16,7 +16,7 @@ M.base = {
     -----------------------------------------
     --        Editors settings
     -----------------------------------------
-    Boolean = { fg = colors.orange },
+    Boolean = { fg = colors.orange, style = config.italic_booleans },
 
     Character    = { fg = colors.yellow },
     ColorColumn  = { bg = colors.black1 },
@@ -52,14 +52,14 @@ M.base = {
     FloatBorder = { fg = colors.gray2, bg = "NONE" },
     FoldColumn  = { fg = colors.line_fg },
     Folded      = { fg = colors.white, bg = colors.gray },
-    Function    = { fg = colors.green_func },
+    Function    = { fg = colors.green_func, style = config.italic_functions },
 
     Identifier = { fg = colors.white1 },
     Ignore     = { fg = colors.gray_punc },
     IncSearch  = { fg = colors.bg, bg = colors.orange },
     Include    = { fg = colors.blue_type },
 
-    Keyword = { fg = colors.red_key_w },
+    Keyword = { fg = colors.red_key_w, style = config.italic_keywords },
 
     Label  = { fg = colors.red_key_w },
     LineNr = { fg = colors.line_fg, bg = colors.line_bg },
@@ -125,7 +125,7 @@ M.base = {
     Type         = { fg = colors.blue_type },
     Typedef      = { fg = colors.blue_type },
 
-    Variable  = { fg = colors.white },
+    Variable  = { fg = colors.white, style = config.italic_variables },
     VertSplit = { fg = colors.vsplit_bg },
     Visual    = { fg = "NONE", bg = colors.visual_select_bg, style = 'bold' },
     VisualNOS = { fg = colors.selection_fg, bg = colors.selection_bg },
@@ -416,11 +416,11 @@ M.plugins = {
     -----------------------------------------
     pythonConditional = { fg = colors.red_key_w },
     pythonException   = { fg = colors.pink },
-    pythonFunction    = { fg = colors.green_func },
+    pythonFunction    = { fg = colors.green_func, config.italic_functions },
     pythonInclude     = { fg = colors.red_key_w },
     pythonOperator    = { fg = colors.red_key_w },
     pythonStatement   = { fg = colors.white },
-    pythonBoolean     = { fg = colors.white },
+    pythonBoolean     = { fg = colors.white, style = config.italic_booleans },
     -----------------------------------------
 
 
@@ -551,7 +551,7 @@ M.plugins = {
     -----------------------------------------
     TSAnnotation         = { fg = colors.yellow },
     TSAttribute          = { fg = colors.white },
-    TSBoolean            = { fg = colors.pink },
+    TSBoolean            = { fg = colors.pink, style = config.italic_booleans },
     TSCharacter          = { fg = colors.yellow },
     TSCharacterSpecial   = { fg = colors.yellow },
     TSComment            = { fg = colors.comment, style = 'italic' },
@@ -567,11 +567,11 @@ M.plugins = {
     TSFloat              = { fg = colors.pink },
     TSFuncBuiltin        = { fg = colors.green_func },
     TSFuncMacro          = { fg = colors.blue_type },
-    TSFunction           = { fg = colors.green_func },
+    TSFunction           = { fg = colors.green_func, style = config.italic_functions },
     TSInclude            = { fg = colors.red_key_w },
-    TSKeyword            = { fg = colors.red_key_w },
-    TSKeywordFunction    = { fg = colors.red_key_w },
-    TSKeywordOperator    = { fg = colors.red_key_w },
+    TSKeyword            = { fg = colors.red_key_w, style = config.italic_keywords },
+    TSKeywordFunction    = { fg = colors.red_key_w, style = config.italic_keywords },
+    TSKeywordOperator    = { fg = colors.red_key_w, style = config.italic_keywords },
     TSKeywordReturn      = { fg = colors.red_key_w },
     TSNone               = { fg = colors.orange },
     TSLabel              = { fg = colors.pink },
@@ -604,7 +604,7 @@ M.plugins = {
     TSTypeQualifier      = { fg = colors.red_key_w },
     TSURI                = { fg = colors.yellow, style = 'underline' },
     TSUnderline          = { style = 'underline' },
-    TSVariable           = { fg = colors.white },
+    TSVariable           = { fg = colors.white, style = config.italic_variables },
     TSVariableBuiltin    = { fg = colors.pink },
     TSDefine             = { fg = colors.red_key_w },
     -----------------------------------------
