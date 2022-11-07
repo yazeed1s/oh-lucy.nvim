@@ -472,9 +472,9 @@ M.plugins = {
     --    telescope: github.com/nvim-telescope/telescope.nvim
     -----------------------------------------
     TelescopeBorder       = { fg = colors.white, bg = config.transparent_background and 'NONE' or colors.bg },
-    TelescopeMatching     = { fg = colors.yellow },
+    TelescopeMatching     = { fg = colors.blue_type },
     TelescopePromptPrefix = { fg = colors.green_func },
-    TelescopeSelection    = { fg = colors.comment, bg = colors.black1 },
+    TelescopeSelection    = { fg = colors.line_fg, bg = colors.black },
     -----------------------------------------
 
     -----------------------------------------
