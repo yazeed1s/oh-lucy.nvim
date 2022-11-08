@@ -16,12 +16,12 @@ M.base = {
     -----------------------------------------
     --        Editors settings
     -----------------------------------------
-    Boolean = { fg = colors.orange, style = config.italic_booleans },
+    Boolean = { fg = colors.boolean, style = config.italic_booleans },
 
     Character    = { fg = colors.yellow },
     ColorColumn  = { bg = colors.black1 },
     Comment      = { fg = colors.comment, style = 'italic' },
-    Conceal      = { fg = colors.fg }, -- {bg = config.transparent_background and 'NONE' or colors.bg },
+    Conceal      = { fg = colors.fg, bg = colors.bg }, -- {bg = config.transparent_background and 'NONE' or colors.bg },
     Conditional  = { fg = colors.red_key_w },
     Constant     = { fg = colors.pink },
     Cursor       = { fg = colors.yellow, bg = colors.bg },
@@ -48,9 +48,9 @@ M.base = {
     ErrorMsg  = { fg = colors.gray, bg = colors.red_err, style = 'bold' },
     Exception = { fg = colors.white },
 
-    Float       = { fg = colors.orange },
+    Float       = { fg = colors.pink },
     FloatBorder = { fg = colors.gray2, bg = "NONE" },
-    FoldColumn  = { fg = colors.line_fg },
+    FoldColumn  = { fg = colors.line_fg, bg = colors.bg },
     Folded      = { fg = colors.white, bg = colors.gray },
     Function    = { fg = colors.green_func, style = config.italic_functions },
 
@@ -64,7 +64,7 @@ M.base = {
     Label  = { fg = colors.red_key_w },
     LineNr = { fg = colors.line_fg, bg = colors.line_bg },
 
-    Macro         = { fg = colors.red_key_w },
+    Macro         = { fg = colors.blue_type },
     MatchParen    = { fg = colors.white1, bg = colors.black },
     MatchParenCur = { style = 'underline' },
     MatchWord     = { style = 'underline' },
@@ -109,7 +109,7 @@ M.base = {
     StatusLineSeparator = { fg = colors.dark },
     StatusLineTerm      = { fg = colors.green_func, bg = colors.black },
     StatusLineTermNC    = { fg = colors.gray_punc, bg = colors.black },
-    StorageClass        = { fg = colors.red_key_w },
+    StorageClass        = { fg = colors.blue_type },
     String              = { fg = colors.yellow },
     Structure           = { fg = colors.green_func },
     Substitute          = { fg = colors.gray2, bg = colors.orange },
@@ -192,6 +192,17 @@ M.plugins = {
     BufferVisibleSign    = { fg = colors.green, bg = colors.bg },
     BufferVisibleTarget  = { fg = colors.red_key_w, bg = colors.bg, style = 'bold' },
     BufferLineFill       = { fg = colors.fg, bg = colors.gray, style = 'bold' },
+    BufferLineSeparator  = { fg = colors.fg, bg = colors.bg },
+    BufferLineTab  = { fg = colors.fg, bg = colors.bg },
+    BufferLineModifiedVisible = { fg = colors.fg, bg = colors.bg },
+    BufferLineDuplicate = { fg = colors.fg, bg = colors.bg },
+    BufferLineDuplicateVisible = { fg = colors.fg, bg = colors.bg },
+    BufferLineCloseButtonVisible  = { fg = colors.fg, bg = colors.bg },
+    BufferLineCloseButton  = { fg = colors.fg, bg = colors.bg },
+    BufferLineModified  = { fg = colors.fg, bg = colors.bg },
+    BufferLineBufferVisible      = { fg = colors.fg, bg = colors.bg },
+    BufferLineBackground  = { fg = colors.fg, bg = colors.bg },
+
     -----------------------------------------
 
 
