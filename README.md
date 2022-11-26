@@ -47,7 +47,7 @@ If any of the colors does not syntax-highlight your langauge satisfactorily, ple
 
 ## 👇 Requirements
 
-- Neovim >= 0.5.0
+- Neovim >= 0.8.0
 
 ## 📦 Installation
 
