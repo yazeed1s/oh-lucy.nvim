@@ -1,5 +1,5 @@
-local colors = require 'oh-lucy-evening.colors'
-local config = require 'oh-lucy-evening.config'
+local colors = require 'oh-lucy.colors'
+local config = require 'oh-lucy.config'
 
 local M = {}
 
