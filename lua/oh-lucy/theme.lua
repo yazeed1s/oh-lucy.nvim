@@ -62,7 +62,7 @@ M.base = {
     Keyword = { fg = colors.red_key_w },
 
     Label  = { fg = colors.red_key_w },
-    LineNr = { fg = colors.line_fg, bg = colors.line_bg },
+    LineNr = { fg = colors.line_fg, bg = config.transparent_background and 'NONE' or colors.line_bg },
 
     Macro         = { fg = colors.blue_type },
     MatchParen    = { fg = colors.white1, bg = colors.black },
@@ -94,7 +94,7 @@ M.base = {
     Repeat = { fg = colors.red_key_w },
 
     Search              = { fg = colors.line_fg, bg = colors.orange },
-    SignColumn          = { bg = colors.line_bg },
+    SignColumn          = { bg = config.transparent_background and 'NONE' or colors.line_bg },
     Special             = { fg = colors.gray_punc },
     SpecialChar         = { fg = colors.yellow },
     SpecialComment      = { fg = colors.pink },
