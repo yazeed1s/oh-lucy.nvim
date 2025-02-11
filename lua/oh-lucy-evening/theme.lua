@@ -172,6 +172,16 @@ M.base = {
 
 
 M.plugins = {
+    -----------------------------------------
+    --   Rainbow delimiters: github.com/hiphish/rainbow-delimiters.nvim
+    -----------------------------------------
+    RainbowDelimiterRed = { fg = colors.red_key_w },
+    RainbowDelimiterOrange = { fg = colors.orange },
+    RainbowDelimiterYellow = { fg = colors.yellow },
+    RainbowDelimiterGreen = { fg = colors.green },
+    RainbowDelimiterBlue = { fg = colors.blue_type },
+    RainbowDelimiterViolet = { fg = colors.pink },
+    RainbowDelimiterCyan = { fg = colors.boolean },
 
     -----------------------------------------
     --   Buffer:
