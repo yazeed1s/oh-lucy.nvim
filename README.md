@@ -43,6 +43,7 @@ If any of the colors does not syntax-highlight your langauge satisfactorily, ple
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [NvimTree](https://github.com/kyazdani42/nvim-tree.lua)
 - [Barbar](https://github.com/romgrk/barbar.nvim)
+- [Rainbow delimiters](https://github.com/hiphish/rainbow-delimiters.nvim)
 - and more...
 
 ## 👇 Requirements
